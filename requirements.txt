@@ -32,3 +32,4 @@ pdfplumber
 langchain
 langchain-community
 d3blocks
+dateparser
