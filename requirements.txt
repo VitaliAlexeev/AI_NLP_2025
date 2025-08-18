@@ -23,7 +23,6 @@ torch
 flair
 geopandas
 missingno
-mercury
 pygeodesy
 marisa_trie
 PyMuPDF
