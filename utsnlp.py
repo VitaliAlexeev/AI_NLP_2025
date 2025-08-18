@@ -36,7 +36,8 @@ packages_list = ["numpy",
                 "nltk",
                 "wordcloud",
                 "plotly",
-                "d3blocks"]    
+                "d3blocks",
+                "bs4"]    
 
 def check_packages(packages_list):
     for element in packages_list:
@@ -56,7 +57,7 @@ import wikipediaapi
 import numpy as np
 from PIL import Image
 
-import re
+import re, unicodedata
 import string
 import contractions
 import itertools
@@ -65,11 +66,12 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 from nltk.tokenize import word_tokenize
+from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 # Download necessary NLTK data (if not already downloaded)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
 
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
@@ -83,6 +85,9 @@ from typing import Iterable, Optional, Tuple, List, Dict, Literal
 import pandas as pd
 from d3blocks import D3Blocks
 
+import requests
+from bs4 import BeautifulSoup
+
 # When editing a module, and not wanting to restatrt kernel every time use:
 # import importlib
 # importlib.reload(bc)
@@ -92,6 +97,18 @@ from d3blocks import D3Blocks
 #############################################
 # Functions
 #############################################
+def get_text_from_url(u):
+    r = requests.get(u, timeout=12)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+    # Simple readability: join paragraph text
+    paras = [p.get_text(" ", strip=True) for p in soup.find_all("p")]
+    txt = "\n\n".join(paras)
+    # Light cleanup
+    txt = re.sub(r"\s+", " ", txt)
+    return txt.strip()
+
+
 def download_wikipedia_text(topic, 
                             language='en', 
                             user_agent='MyWikiApp/1.0', 
@@ -272,6 +289,8 @@ def preprocess_text(text,
                     remove_html_tags=True,
                     to_lower=True, 
                     expand_contractions=True,
+                    remove_non_english=True,                
+                    non_english_strategy: str = "drop",       #  "drop" | "transliterate"
                     remove_punctuation=True, 
                     remove_digits=True, 
                     remove_stopwords=True, 
@@ -331,6 +350,19 @@ def preprocess_text(text,
     if to_lower:
         text = text.lower()
 
+    # Remove/transliterate non-English characters BEFORE punctuation removal
+    if remove_non_english:
+        if non_english_strategy.lower() == "transliterate":
+            try:
+                from unidecode import unidecode
+                text = unidecode(text)
+            except Exception:
+                # Fallback: strip diacritics via NFKD then drop non-ASCII
+                text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+        else:
+            # "drop": keep only ASCII (letters, digits, ASCII punctuation/space)
+            text = ''.join(ch for ch in text if ch.isascii())
+            
     # Remove punctuation
     if remove_punctuation:
         text = text.translate(str.maketrans('', '', string.punctuation))
@@ -349,7 +381,7 @@ def preprocess_text(text,
             stop_words.update(custom_stopwords)
         tokens = [word for word in tokens if word not in stop_words]
     
-    # NEW: remove short tokens (length <= threshold)
+    # Remove short tokens (length <= threshold)
     if remove_short_words_leq and remove_short_words_leq > 0:
         tokens = [w for w in tokens if len(w) > remove_short_words_leq]
         
@@ -365,8 +397,43 @@ def preprocess_text(text,
     if stem:
         tokens = [stemmer.stem(word) for word in tokens]
 
+    # ... after you finish building `tokens` (and any lemmatising/stemming) ...
+    def _detok(tokens):
+        return TreebankWordDetokenizer().detokenize(tokens)
+
+    def smart_detokenize(tokens: list[str]) -> str:
+        s = TreebankWordDetokenizer().detokenize(tokens)
+        # Normalise unicode (turn NBSP etc. into regular form)
+        s = unicodedata.normalize("NFKC", s).replace("\u00A0", " ")
+    
+        # --- Glue punctuation to the left (fix "word ." -> "word.")
+        s = re.sub(r"\s+([,.;:?!%])", r"\1", s)
+    
+        # --- Glue closing brackets/quotes to the left
+        s = re.sub(r"\s+([)\]\}])", r"\1", s)
+    
+        # --- Remove space after opening brackets/quotes
+        s = re.sub(r"([(\[\{])\s+", r"\1", s)
+    
+        # --- Currency: "$ 3" -> "$3"
+        s = re.sub(r"([£$€])\s+(\d)", r"\1\2", s)
+    
+        # --- Possessives: "Sydney 's" -> "Sydney's"
+        s = re.sub(r"\s+'s\b", r"'s", s)
+    
+        # --- Collapse leftover multiple spaces
+        s = re.sub(r"\s{2,}", " ", s).strip()
+        return s
+    
     # Rejoin tokens into a single string
-    cleaned_text = ' '.join(tokens)
+    #cleaned_text = ' '.join(tokens) 
+    
+    # this OLD step results in seeing the extra spaces because word_tokenize splits punctuation into separate tokens, and then ' '.join(tokens) naively inserts a space between every token. 
+    # Use NLTK’s detokeniser to re-assemble tokens with correct punctuation spacing and quotes:
+    #cleaned_text = _detok(tokens)
+
+    # Even the 2nd attem pt didn't work --> making "smart" detokenizer
+    cleaned_text = smart_detokenize(tokens)
 
     return cleaned_text
 	
@@ -476,6 +543,19 @@ def print_colored_text(text_data):
         print("Invalid input: 'text_data' must be a list of strings or a list of lists of strings.")
     print('\n')
 
+
+
+
+
+
+
+
+
+
+
+#############################################
+# D3graphs Functions
+#############################################
 def plot_semantic_network_d3(
     text: str,
     *,

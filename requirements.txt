@@ -22,9 +22,10 @@ contractions
 torch
 flair
 geopandas
-missingno
 pygeodesy
 marisa_trie
+pdfminer
+bs4
 PyMuPDF
 PyPDF2
 pdfplumber
