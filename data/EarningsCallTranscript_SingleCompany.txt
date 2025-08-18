@@ -1,0 +1,236 @@
+TRANCRIPT: INNOVATECH SOLUTIONS INC. Q2 2023 EARNINGS CALL
+Date: July 24, 2023
+Time: 10:00 AM ET
+
+CORPORATE PARTICIPANTS
+- Samantha Chen - Investor Relations
+- David Reynolds - Chief Executive Officer
+- Michelle Patel - Chief Financial Officer
+- Alexander Wong - Chief Operating Officer
+
+CONFERENCE CALL PARTICIPANTS
+- Jason Miller - Goldman Stanley
+- Sarah Thompson - Morgan Chase
+- Robert Chen - Citi Group
+- Emily Rodriguez - BlackRock Investments
+- Michael Lee - Westfield Capital
+
+=== PREPARED REMARKS SECTION ===
+
+Operator: Good morning, ladies and gentlemen, and welcome to InnovaTech Solutions' Second Quarter 2023 Earnings Conference Call. At this time, all participants are in a listen-only mode. Following management's prepared remarks, we will conduct a question-and-answer session. As a reminder, this conference call is being recorded and will be available for replay on the company's investor relations website.
+
+I would now like to turn the call over to Ms. Samantha Chen, Head of Investor Relations. Please go ahead.
+
+Samantha Chen: Thank you, operator, and good morning, everyone. We appreciate you joining us for InnovaTech Solutions' second quarter 2023 earnings conference call. With me today are David Reynolds, our Chief Executive Officer; Michelle Patel, our Chief Financial Officer; and Alexander Wong, our Chief Operating Officer.
+
+Before we begin, I'd like to remind everyone that today's discussion contains forward-looking statements based on the environment as we currently see it, and as such, it includes risks and uncertainties. If you review our SEC filings, you'll find factors that could cause our actual results to differ materially from these statements. To supplement our GAAP results, we will also discuss certain non-GAAP financial measures, which we believe provide additional insight into the ongoing performance of our business. Reconciliations between our GAAP and non-GAAP results can be found in today's earnings press release.
+
+And now, I'll turn the call over to our CEO, David Reynolds.
+
+David Reynolds: Thank you, Samantha, and good morning, everyone. We appreciate you joining us today to discuss our second quarter results, which significantly exceeded our expectations across all key performance metrics. Our team has executed with precision and demonstrated remarkable resilience in a challenging macroeconomic environment.
+
+We're pleased to report that Q2 revenue reached $285 million, representing 18% year-over-year growth and surpassing our guidance range of $260-270 million. This exceptional performance was driven by robust demand for our enterprise cloud solutions, which grew 32% year-over-year. Our expansion into international markets continues to progress well, with international revenue now representing 38% of our total business, up from 30% in the same period last year.
+
+Our flagship product, InnovaCloud Enterprise, has seen particularly strong adoption, with customer acquisition accelerating 24% compared to the first quarter. We attribute this success to our differentiated go-to-market strategy and the superior value proposition of our solutions, which combine cutting-edge technology with exceptional ease of implementation.
+
+In addition to our strong revenue growth, we've made tremendous progress on our strategic initiatives. First, we successfully completed the integration of SecureTech, our acquisition from last year, which has enabled us to enhance our cybersecurity capabilities and expand our addressable market. Second, our AI-powered analytics platform has moved from beta to general availability and is already generating significant interest among our enterprise customers. And third, we've expanded our strategic partnerships with major cloud providers, which has opened new channels for customer acquisition.
+
+However, I must acknowledge that we continue to face some challenges in our hardware division, where revenue declined 5% year-over-year due to ongoing supply chain constraints. We're addressing these challenges through proactive inventory management and by working closely with our suppliers to secure critical components.
+
+Looking ahead, we remain confident in our ability to deliver sustainable growth despite market uncertainties. Our substantial backlog, high recurring revenue, and strong competitive positioning give us confidence in our outlook for the remainder of the year.
+
+I'll now turn the call over to Michelle to provide more details on our financial performance and guidance.
+
+Michelle Patel: Thank you, David, and good morning, everyone. As David mentioned, we delivered exceptional financial results in the second quarter, with strong performance across all key metrics.
+
+Total revenue for the quarter was $285 million, up 18% year-over-year, with subscription revenue growing 28% to $195 million. Professional services revenue was $65 million, representing 15% growth, while hardware revenue was $25 million, down 5% year-over-year.
+
+Turning to profitability, our non-GAAP gross margin improved to 72%, up from 68% in the same period last year, primarily driven by a favorable revenue mix shift toward higher-margin subscription offerings and improved operational efficiencies in our cloud infrastructure.
+
+Non-GAAP operating income was $57 million, representing a 20% operating margin, compared to $42 million and an 18% margin in the year-ago quarter. This expansion reflects the leverage in our business model as we continue to scale.
+
+From a cash flow perspective, operating cash flow was robust at $65 million, up 25% year-over-year, and we ended the quarter with approximately $450 million in cash and short-term investments. During the quarter, we repurchased $50 million worth of our common stock as part of our ongoing share repurchase program.
+
+Now, let me provide some additional insights into our customer metrics. We ended the quarter with 4,850 customers, adding 320 new customers, including 45 Fortune 500 companies. Our dollar-based net retention rate remained strong at 118%, reflecting the success of our land-and-expand strategy. Additionally, customers with annual recurring revenue exceeding $1 million increased to 210, up 28% year-over-year.
+
+Looking ahead to the third quarter, we expect revenue to be in the range of $295 million to $305 million, representing 16% to 20% year-over-year growth. For the full year 2023, we are raising our revenue guidance to $1.19 billion to $1.21 billion, up from our previous range of $1.15 billion to $1.18 billion.
+
+In terms of profitability, we expect third-quarter non-GAAP operating margin to be approximately 21%, and full-year non-GAAP operating margin to be approximately 20.5%, up from our previous guidance of 19.5%.
+
+While we are pleased with our strong performance, we remain cautious about the evolving macroeconomic conditions and their potential impact on IT spending. However, our high recurring revenue base and focus on mission-critical enterprise software solutions position us well to navigate any challenges that may arise.
+
+With that, I'll hand it over to Alexander to provide an update on our product and technology initiatives.
+
+Alexander Wong: Thank you, Michelle, and good morning, everyone. I'm excited to share the significant progress we've made in advancing our technology roadmap during the second quarter.
+
+As David mentioned earlier, we successfully launched the general availability version of our AI-powered analytics platform, which has been enthusiastically received by our customers. This platform leverages machine learning algorithms to analyze vast amounts of data, enabling organizations to derive actionable insights and drive better business outcomes. Early adopters have reported a 40% reduction in time spent on data analysis and a 25% improvement in decision-making accuracy.
+
+We also made substantial enhancements to our flagship InnovaCloud Enterprise solution, introducing advanced security features, improved performance capabilities, and deeper integrations with third-party applications. These improvements have been instrumental in driving the 24% acceleration in customer acquisition that David referenced earlier.
+
+Our R&D team continues to innovate at a rapid pace, with a particular focus on expanding our AI and machine learning capabilities. We've increased our R&D investments by 15% compared to the same period last year, and we expect these investments to drive long-term growth and competitive differentiation.
+
+From an operational perspective, we've also made significant strides in enhancing our infrastructure reliability and scalability. Our platform achieved 99.99% uptime during the quarter, exceeding our target of 99.9%. Additionally, we've reduced our average response time for critical incidents by 30%, ensuring minimal disruption to our customers' operations.
+
+Looking ahead, we have an exciting product roadmap for the remainder of the year. In the third quarter, we plan to introduce a new suite of developer tools that will enable customers to extend and customize our platform more easily. And in the fourth quarter, we expect to launch our next-generation data processing engine, which will deliver substantial performance improvements for our customers with large-scale data workloads.
+
+In terms of innovation metrics, we filed 28 new patents during the quarter, bringing our total patent portfolio to over 450. And our technical team published 15 research papers in leading industry journals, underscoring our commitment to advancing the state of the art in our field.
+
+In summary, we're making excellent progress on our technology initiatives, which are driving our strong financial performance and positioning us for sustainable long-term growth.
+
+With that, I'll turn the call back to David for closing remarks.
+
+David Reynolds: Thank you, Alexander and Michelle, for those comprehensive updates. I want to reiterate how pleased we are with our second-quarter performance and the continued execution across all aspects of our business.
+
+As we move into the second half of the year, we remain focused on our core strategic priorities: accelerating innovation, expanding our market reach, and delivering exceptional value to our customers. While we acknowledge the uncertainties in the broader economic environment, we believe that our mission-critical solutions, diverse customer base, and strong financial foundation position us to continue delivering sustainable growth and shareholder value.
+
+Before we open the call for questions, I'd like to express my gratitude to our employees worldwide for their dedication and hard work, which have been instrumental in achieving these outstanding results. I'd also like to thank our customers for their continued trust and partnership, and our shareholders for their ongoing support.
+
+With that, operator, we're ready to take questions.
+
+=== Q&A SECTION ===
+
+Operator: Thank you. We will now begin the question-and-answer session. If you would like to ask a question, please press star-one on your telephone keypad. If you wish to remove yourself from the question queue, please press star-two. For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys. Our first question comes from Jason Miller with Goldman Stanley. Please go ahead.
+
+Jason Miller: Thanks for taking my question and congrats on a great quarter. I'd like to dig a bit deeper into the performance of InnovaCloud Enterprise. Can you provide more details on what's driving the acceleration in customer acquisition? And how sustainable do you think this growth rate is, especially considering some of the macro headwinds we're seeing?
+
+David Reynolds: Thanks for the question, Jason. Look, we're seeing several factors driving the strong adoption of InnovaCloud Enterprise. First, there's been a clear shift in the market toward comprehensive cloud solutions that can address multiple enterprise needs, and our platform is perfectly positioned to capitalize on this trend. Second, our investments in AI and analytics capabilities have significantly enhanced our value proposition. And third, our expanded partnerships with major cloud providers have opened new channels for customer acquisition.
+
+In terms of sustainability, uh, I'll be honest, we're watching the macro environment closely, but we, uh, haven't seen any meaningful slowdown in demand so far. In fact, in some cases, economic uncertainty is actually accelerating cloud adoption as companies look to reduce capital expenditures and increase operational flexibility. Our sales pipeline remains robust, and our deal closure rates have actually improved quarter-over-quarter.
+
+That said, we're not immune to broader economic trends, and if there's a significant deterioration in IT spending, we could see some impact. But given our focus on mission-critical applications and the compelling ROI our solutions deliver, we believe we're well-positioned to outperform the market even in a challenging environment.
+
+Alexander Wong: If I could just add to that, Jason. The product improvements we've made over the past year have been very well received by customers. We've simplified the implementation process, reduced time-to-value, and enhanced our self-service capabilities. These improvements have not only accelerated new customer acquisition but have also driven stronger expansion within our existing customer base. And our engineering team has a pretty exciting roadmap for the next several quarters that we believe will sustain this momentum.
+
+Jason Miller: That's really helpful. And just a quick follow-up on the international expansion. Could you talk about which regions are performing the strongest, and are there any markets where you're seeing particular challenges?
+
+David Reynolds: Certainly. Our performance has been particularly strong in Western Europe and parts of Asia-Pacific, especially Australia, Japan, and Singapore. We've also seen encouraging growth in emerging markets like Brazil and India, albeit from a smaller base.
+
+In terms of challenges, we've experienced some headwinds in certain European markets due to data sovereignty requirements, but we're addressing these through our regional data center investments. Additionally, the strength of the US dollar has created some pricing pressures, but we've implemented localized pricing strategies to mitigate this impact.
+
+Overall, we see significant international opportunities ahead, and we're continuing to invest in our global go-to-market capabilities.
+
+Jason Miller: Great, thank you.
+
+Operator: Our next question comes from Sarah Thompson with Morgan Chase. Please go ahead.
+
+Sarah Thompson: Hi, thanks for taking my question. I want to focus on the margin expansion you're seeing. Michelle, could you walk us through the key drivers of the gross margin improvement, and how sustainable do you think the current levels are? Also, how should we think about the balance between growth investments and margin expansion going forward?
+
+Michelle Patel: Thanks, Sarah. The margin expansion we're seeing is driven by several factors. First, as I mentioned, we're benefiting from a favorable revenue mix shift toward higher-margin subscription offerings. Second, we've made significant improvements in our cloud infrastructure efficiency, reducing our cost per customer while maintaining or improving service levels. And third, we've been able to achieve economies of scale in our professional services organization through better resource utilization and increased leverage of our implementation partners.
+
+Regarding sustainability, we believe the current gross margin levels are sustainable and may even see modest improvement over time as our subscription revenue continues to grow as a percentage of our total revenue. However, I would note that we could see some quarter-to-quarter fluctuations based on revenue mix and the timing of infrastructure investments.
+
+As for the balance between growth investments and margin expansion, we're taking a thoughtful approach. We see significant growth opportunities ahead and plan to continue investing in R&D, sales coverage, and market expansion. That said, we believe we can make these investments while still delivering gradual margin improvement through operating leverage. Our medium-term target is to achieve a non-GAAP operating margin of 25% while maintaining strong top-line growth.
+
+Sarah Thompson: That makes sense. And as a follow-up, could you provide more color on your capital allocation strategy? You mentioned the share repurchases, but how are you thinking about M&A versus returning capital to shareholders?
+
+Michelle Patel: Sure. Our capital allocation strategy remains balanced and disciplined. Our first priority is to invest organically in the business to drive innovation and growth. Second, we continue to evaluate M&A opportunities that can accelerate our product roadmap or expand our market reach. The SecureTech acquisition is a good example of our approach – targeted, strategic acquisitions that complement our existing capabilities.
+
+Regarding share repurchases, we initiated our program last year to offset dilution from employee equity programs and opportunistically return capital to shareholders. We still have approximately $150 million remaining under our current authorization.
+
+We don't currently pay a dividend, as we believe our shareholders are better served by reinvesting in growth opportunities and share repurchases at this stage of our development. However, we regularly review our capital allocation strategy with our board and will continue to evolve our approach as the business matures.
+
+Sarah Thompson: Great, thank you.
+
+Operator: Our next question comes from Robert Chen with Citi Group. Please go ahead.
+
+Robert Chen: Thanks for taking my question. I want to focus on the hardware business, which continues to be a drag on overall growth. Given the ongoing challenges, are you considering strategic alternatives for this segment? And can you quantify the impact of the supply chain constraints on your overall results?
+
+David Reynolds: [long pause] Robert, that's a fair question. Look, we recognize that our hardware business has been underperforming, and we're not satisfied with its current trajectory. We're examining all options to address this, including potential strategic alternatives. However, I don't want to speculate about specific outcomes at this point.
+
+What I can tell you is that we're taking concrete steps to improve performance in the near term. We're rationalizing our product portfolio, enhancing our supply chain resilience, and more tightly integrating our hardware offerings with our software solutions to drive better customer outcomes. We're also reducing our fixed cost structure in this segment to improve profitability even at lower revenue levels.
+
+Regarding the impact of supply chain constraints, we estimate that they reduced our Q2 revenue by approximately $8-10 million. We have orders in hand that we simply couldn't fulfill due to component shortages. We expect these constraints to ease somewhat in the second half of the year, but they'll likely remain a challenge well into 2024.
+
+Michelle, would you like to add anything?
+
+Michelle Patel: Yes, I'd just add that despite the challenges in the hardware segment, it represents a decreasing percentage of our overall business – now just about 9% of total revenue compared to 15% two years ago. So while we're certainly focused on addressing the issues, the impact on our overall growth profile is diminishing over time as our software and services businesses continue to grow rapidly.
+
+Robert Chen: Got it. And as a follow-up, I noticed you didn't mention anything about AI in your prepared remarks. Given all the hype around generative AI, could you talk about how you're thinking about incorporating these capabilities into your products, and whether you see this as a significant opportunity or more of a distraction?
+
+Alexander Wong: [speaking rapidly] Actually, Robert, I did mention our AI-powered analytics platform in my prepared remarks, which has moved from beta to general availability. But you're right to ask about generative AI specifically, which is indeed generating a lot of excitement in the market.
+
+We've been investing in AI capabilities for several years, well before the recent hype cycle, and we see generative AI as a natural extension of our existing investments. We're already incorporating these technologies into our products in several ways. For example, we've added natural language query capabilities to our analytics platform, allowing users to ask complex questions in plain English. We're also using generative AI to automate content creation for our marketing automation tools and to enhance our customer support experience through more intelligent chatbots.
+
+That said, we're being thoughtful and responsible in our approach. We're focusing on use cases where generative AI can deliver tangible business value rather than pursuing AI for its own sake. We're also paying close attention to issues like data privacy, security, and the potential for bias in AI-generated content.
+
+In terms of opportunity versus distraction, we definitely see this as a significant opportunity. Our early implementations have shown promising results, and customer feedback has been extremely positive. We believe AI will fundamentally transform how enterprises operate, and we're committed to being at the forefront of this transformation.
+
+Robert Chen: That's really helpful context. Thank you.
+
+Operator: Our next question comes from Emily Rodriguez with BlackRock Investments. Please go ahead.
+
+Emily Rodriguez: Thank you for taking my question. I'd like to focus on competition. We've seen some emerging players in your space gain traction, particularly those offering more specialized solutions. How do you view the competitive landscape, and what are you doing to maintain your differentiation?
+
+David Reynolds: [speaking more deliberately] Thank you, Emily. Yes, we are seeing increased competition, particularly from specialized players targeting specific segments of our market. However, we believe our comprehensive platform approach provides significant advantages for enterprise customers who are looking to consolidate vendors and reduce integration complexity.
+
+That said, we're not... we're not complacent about the competitive threat. We're enhancing our platform in several ways to maintain our differentiation. First, we're deepening our industry-specific capabilities to address the unique needs of key verticals like financial services, healthcare, and manufacturing. Second, we're expanding our ecosystem through APIs and developer tools, making it easier for customers and partners to extend our platform. And third, we're accelerating our innovation in areas like AI and advanced analytics, where we believe we can establish sustainable competitive advantages.
+
+Our competitive win rates have actually improved over the past year, which gives us confidence in our strategy. But we're staying vigilant and continuously evaluating our positioning.
+
+Emily Rodriguez: That's helpful. And as a follow-up, there's been some concern about increasing customer acquisition costs across the software industry. Can you talk about the efficiency of your go-to-market model and whether you're seeing any changes in sales cycles or customer decision-making processes?
+
+David Reynolds: It's a good question. We've actually been able to maintain or slightly improve our sales efficiency metrics over the past year, despite the challenging macro environment. Our customer acquisition cost payback period remains approximately 14 months, which is quite strong for enterprise software.
+
+We've achieved this by making several enhancements to our go-to-market model. We've implemented more sophisticated lead scoring and qualification processes, enabling our sales teams to focus on the highest-probability opportunities. We've also expanded our partner ecosystem, which now generates about 30% of our new business. And we've invested in digital marketing and self-service capabilities to more efficiently address the mid-market segment.
+
+Regarding sales cycles, we have seen some elongation, particularly for larger enterprise deals. Deals that might have closed in 3-4 months a year ago are now taking 4-6 months, as customers implement more rigorous approval processes and involve more stakeholders. However, our win rates remain strong, and we're not seeing a meaningful increase in deal cancellations or size reductions.
+
+Alexander Wong: [interrupting] If I could jump in here, I think our product-led growth initiatives have also contributed to our go-to-market efficiency. By offering free trials and creating a more seamless onboarding experience, we're enabling customers to experience the value of our solutions before making significant commitments. This has been particularly effective in the mid-market segment, where we're seeing strong growth.
+
+Emily Rodriguez: Great, thank you both.
+
+Operator: Our next question comes from Michael Lee with Westfield Capital. Please go ahead.
+
+Michael Lee: Thanks for taking my question. I'm curious about the impact of recent layoffs across the tech industry on your talent acquisition efforts. Has this created opportunities for you to attract high-quality candidates, and are you seeing any changes in employee retention or compensation demands?
+
+David Reynolds: [voice showing stress] Thanks for the question, Michael. We... um... we have seen some changes in the talent landscape. The broader tech industry layoffs have indeed created opportunities for us to attract exceptional talent that might not have been available previously. We've been able to strategically upgrade our team in several key areas, particularly in engineering, product management, and sales.
+
+In terms of retention, our voluntary turnover rate has actually improved significantly compared to last year, decreasing from about 15% to below 10%. I think this reflects both the more cautious job market and the steps we've taken to enhance our employee value proposition, including more flexible work arrangements and targeted compensation adjustments.
+
+Speaking of compensation, we are seeing moderation in compensation demands compared to the peak levels of 2021 and early 2022. This is helping us manage our operating expenses more effectively while still attracting and retaining top talent.
+
+However, I want to emphasize that we remain committed to responsible growth in our headcount. We've been more measured in our hiring compared to some peers who expanded rapidly during the pandemic and then had to implement large-scale layoffs. Our current plan is to grow our headcount by approximately 10-12% this year, with a particular focus on customer-facing roles and R&D.
+
+Michael Lee: That's helpful. And as a follow-up, I'd like to ask about your public cloud migration. How far along are you in that process, and what impact is it having on your margins and capital expenditure requirements?
+
+Alexander Wong: [speaking confidently] We're well advanced in our public cloud migration. Currently, approximately 75% of our workloads are running in public cloud environments, up from about 60% a year ago. We expect to reach 85-90% by the end of next year, maintaining some workloads on-premises for specific security or performance requirements.
+
+The migration has had several positive impacts. From a margin perspective, we've seen improved gross margins as we benefit from the elasticity and economies of scale of public cloud providers. We've also reduced our capital expenditure requirements significantly. Our CapEx as a percentage of revenue has declined from 8% three years ago to about 3-4% currently.
+
+Beyond the financial benefits, the migration has enhanced our ability to innovate rapidly and scale efficiently. We can deploy new features more quickly, respond to demand spikes more effectively, and offer better performance and reliability to our customers.
+
+That said, we remain focused on optimizing our cloud costs. We've implemented sophisticated monitoring and management tools that help us rightsize resources and take advantage of reserved instance pricing. These efforts have reduced our cloud cost per customer by approximately 20% over the past year.
+
+Michelle Patel: [interrupting, with a nervous laugh] I'd like to add one point to Alexander's comprehensive answer. While the public cloud migration has been positive overall, we did experience some unexpected cost increases during the initial phases as we learned to optimize our cloud usage. We've worked through most of those issues now, but it's something we monitor very closely to ensure we're maximizing the financial benefits of the migration.
+
+Michael Lee: Great, thanks for the detailed response.
+
+Operator: As a reminder, if you would like to ask a question, please press star-one. Our next question comes from Jason Miller with Goldman Stanley for a follow-up. Please go ahead.
+
+Jason Miller: Thanks for taking my follow-up. I wanted to ask about the recent cyber incident that was mentioned in some media reports. Could you provide some details on what happened, the impact on your customers, and any lessons learned from the experience?
+
+David Reynolds: [speaking rapidly with noticeable tension] I appreciate the question, Jason. Let me be very clear about this. What occurred was not a security breach of our production systems. We experienced a targeted phishing attack that compromised a small number of employee email accounts. Our security team detected the intrusion promptly, and we took immediate action to contain it. We worked with leading cybersecurity experts to conduct a thorough investigation, which found no evidence that the attackers accessed customer data or our production environment.
+
+We've been transparent with our customers throughout this process, providing regular updates and addressing any concerns they've raised. The impact on our business has been minimal, with no material financial effect or significant customer attrition.
+
+That said, we've used this as an opportunity to further enhance our security posture. We've accelerated the rollout of our advanced phishing protection tools, strengthened our multi-factor authentication requirements, and conducted additional security awareness training for all employees. We're also accelerating investments in our zero-trust security framework to reduce the potential impact of any future incidents.
+
+The security of our customers' data remains our highest priority, and we're committed to maintaining industry-leading security practices. I want to emphasize that our customers' trust in us remains strong, as evidenced by our continued business momentum.
+
+Alexander Wong: [speaking in a more measured tone] If I may add, we've also been extremely proactive in sharing the lessons learned with our broader customer community through our security blog and customer webinars. We believe this kind of transparency benefits the entire ecosystem. And as David mentioned, we've accelerated several security initiatives that were already on our roadmap.
+
+Jason Miller: I appreciate the clarification. Just to follow up on that, has this incident led to any changes in your approach to cyber insurance or your overall risk management framework?
+
+Michelle Patel: [hesitantly] Yes, we have made some adjustments to our risk management approach. We've increased our cyber insurance coverage and reassessed our overall security controls framework. We've also expanded our security and compliance team, bringing in additional expertise in threat intelligence and incident response.
+
+From a governance perspective, our board has established a dedicated cybersecurity committee that meets quarterly to review our security posture and risk management practices. We believe these enhancements demonstrate our commitment to security as a fundamental business priority.
+
+Jason Miller: Thank you for addressing this directly.
+
+Operator: There are no further questions at this time. I would like to turn the call back to David Reynolds for closing remarks.
+
+David Reynolds: [returning to confident tone] Thank you, operator, and thank you all for your thoughtful questions today. To summarize, we're extremely pleased with our second-quarter performance, which demonstrates the strength of our business model and the value we deliver to our customers. We're executing well against our strategic priorities and are confident in our ability to sustain this momentum in the second half of the year and beyond.
+
+As always, we appreciate your interest in InnovaTech Solutions and look forward to updating you on our progress next quarter. Thank you, and have a great day.
+
+Operator: Ladies and gentlemen, this concludes today's conference call. Thank you for your participation. You may now disconnect.

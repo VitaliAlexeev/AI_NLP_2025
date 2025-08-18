@@ -1,0 +1,45 @@
+Operator: Good morning, ladies and gentlemen, and welcome to the TechInnovate Q2 2023 Earnings Conference Call. At this time, all lines are in a listen-only mode. After the speakers' presentation, there will be a question-and-answer session. [Operator Instructions]. I would now like to turn the call over to your host, Ms. Jane Smith, Investor Relations. Please go ahead.
+
+Jane Smith: Thank you, Operator. Good morning, everyone, and welcome to TechInnovate's second quarter fiscal 2023 earnings call. With me today are Sarah Johnson, our Chief Executive Officer, and Michael Chen, our Chief Financial Officer.
+
+Before we begin, I'd like to remind you that during this call, we will make forward-looking statements regarding future events and financial performance, which are subject to material risks and uncertainties. Please refer to our filings with the SEC for a discussion of these risks.
+
+I will now turn the call over to Sarah Johnson, CEO of TechInnovate.
+
+Sarah Johnson: Thank you, Jane, and good morning, everyone. I'm pleased to report that TechInnovate delivered strong results in the second quarter of fiscal 2023, exceeding our guidance on both revenue and profitability metrics.
+
+Our revenue reached $2.5 billion, representing 15% growth year-over-year, driven by continued momentum in our cloud services division, which grew 28% compared to the same period last year. Our strategic investments in AI capabilities are yielding results, with our AI-enhanced products seeing 40% higher adoption rates than our traditional offerings.
+
+Despite the challenging macroeconomic environment, we're seeing robust demand across all our key markets, with particular strength in financial services and healthcare verticals, which grew 22% and 18% respectively. Our international business expanded 20%, now representing 35% of total revenue.
+
+We're particularly proud of our new product innovations this quarter. We launched TechCloud AI 2.0, which incorporates significant enhancements to our machine learning capabilities, enabling customers to derive deeper insights from their data with less configuration required. Early customer feedback has been overwhelmingly positive.
+
+While our hardware division saw a 5% decline year-over-year, this was anticipated as we continue to transition toward higher-margin software and services. We expect this trend to continue as we focus on our strategic growth areas.
+
+I'll now turn the call over to Michael to provide more details on our financial performance.
+
+Michael Chen: Thank you, Sarah, and good morning, everyone. As Sarah mentioned, we delivered strong financial results in Q2, with revenue of $2.5 billion, up 15% year-over-year and above our guidance of $2.3 billion.
+
+Gross margin improved to 68%, up 150 basis points from the year-ago quarter, primarily due to our continued shift toward higher-margin cloud services and AI solutions. Operating expenses were $1.1 billion, representing 44% of revenue, compared to 46% in the same period last year.
+
+This resulted in operating income of $600 million, up 25% year-over-year, with an operating margin of 24%, compared to 22% in the prior year period. Non-GAAP earnings per share was $1.15, exceeding our guidance of $1.05.
+
+Our cloud services business now represents 60% of total revenue, with annual recurring revenue of $5.4 billion, up 30% year-over-year. We added 150 new enterprise customers this quarter, and our net revenue retention rate remains strong at 120%.
+
+Cash flow from operations was $750 million, and we ended the quarter with $3.2 billion in cash and investments. We're announcing a 10% increase in our quarterly dividend to $0.25 per share, payable on August 15, 2023. Additionally, our Board has approved a $500 million share repurchase program.
+
+Looking ahead to Q3, we expect revenue between $2.6 billion and $2.8 billion, representing 12-20% year-over-year growth. We expect operating margins to improve by 150-200 basis points compared to the prior year period. For the full fiscal year 2023, we're raising our revenue guidance to $10.5-$10.7 billion, up from our previous range of $10.2-$10.5 billion.
+
+I'll now turn the call back to Sarah for closing remarks.
+
+Sarah Johnson: Thank you, Michael. In summary, we're executing well against our strategic priorities and delivering strong results in a dynamic market environment. Our investments in AI and cloud technologies are resonating with customers, and we remain confident in our long-term growth trajectory.
+
+While we're mindful of the macroeconomic uncertainties, we believe our diversified business model, strong balance sheet, and focus on innovation position us well for sustainable growth. We're particularly excited about the upcoming launch of our next-generation security platform in Q3, which we believe will be a significant growth driver in the second half of the year.
+
+We'll now open the call for questions. Operator?
+
+Operator: [Operator Instructions]. Our first question comes from the line of David Lee with Capital Research. Your line is open.
+
+David Lee: Good morning and congratulations on the strong quarter. I'd like to understand more about the AI adoption you're seeing. Could you provide more color on which industries are adopting these solutions fastest and what use cases are gaining the most traction?
+
+Sarah Johnson: Thank you, David. We're seeing the strongest AI adoption in financial services and healthcare, where data-intensive applications benefit most from our machine learning capabilities. In financial services, fraud detection and algorithmic trading are particularly strong use cases, while in healthcare, diagnostic support and patient outcome prediction are gaining significant traction. What's interesting is that mid-market companies are adopting these solutions faster than we initially anticipated, which is expanding our addressable market.
