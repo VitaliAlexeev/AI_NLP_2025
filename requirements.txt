@@ -19,17 +19,13 @@ pyLDAvis
 transformers
 pyspellchecker
 contractions
-torch
 flair
 geopandas
 pygeodesy
-marisa_trie
 pdfminer
 bs4
 PyMuPDF
 PyPDF2
 pdfplumber
-langchain
-langchain-community
 d3blocks
 dateparser
