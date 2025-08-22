@@ -1,0 +1,24 @@
+name: ai-nlp-2025
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy<2
+  - scipy<1.14
+  - gensim==4.3.3
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - nltk
+  - spacy
+  - textblob
+  - pyldavis
+  - wordcloud
+  - pypdf
+  - pip
+  - pip:
+      - vaderSentiment
