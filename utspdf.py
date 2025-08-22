@@ -23,12 +23,11 @@ import os
 import re
 import tempfile
 import unicodedata
-from typing import Iterable, List, Optional, Union, Literal
+from typing import Iterable, List, Optional, Union, Literal, Set
 from collections import Counter
 
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-
+from wordcloud import WordCloud, STOPWORDS
 # -------------------------------
 # Extraction
 # -------------------------------
@@ -570,7 +569,9 @@ __all__ = [
 
 
 
-
+#############################################
+# Plotting wordclouds
+#############################################
 def show_wordcloud(
     text: str,
     *,
@@ -581,6 +582,8 @@ def show_wordcloud(
     colormap: str = "viridis",
     stopwords: Optional[set[str]] = None,
     title: Optional[str] = None,
+    include_stopwords: bool = False,          # if True, do NOT remove stopwords
+    use_nltk_stopwords: bool = False          # optionally add NLTK stopwords when removing
 ) -> None:
     """
     Display a simple wordcloud from text.
@@ -598,22 +601,40 @@ def show_wordcloud(
     colormap : str
         Matplotlib colormap for colouring words.
     stopwords : set[str] | None
-        Optional set of stopwords to exclude.
+        Optional *additional* stopwords to exclude (used only when include_stopwords=False).
     title : str | None
         Optional title for the plot.
+    include_stopwords : bool
+        If True, do not remove stopwords (i.e., include them in the cloud). Default False.
+    use_nltk_stopwords : bool
+        If True and include_stopwords=False, union NLTK English stopwords as well.
     """
+    # Build the stopword set
+    stopset: Set[str] = set()
+    if not include_stopwords:
+        stopset |= set(STOPWORDS)  # WordCloud's default list
+        if use_nltk_stopwords:
+            try:
+                from nltk.corpus import stopwords as nltk_sw
+                stopset |= set(nltk_sw.words("english"))
+            except Exception:
+                # NLTK stopwords not available; silently continue
+                pass
+        if stopwords:
+            stopset |= set(stopwords)
+
     wc = WordCloud(
         max_words=max_words,
         width=width,
         height=height,
         background_color=background_color,
         colormap=colormap,
-        stopwords=stopwords
+        stopwords=stopset  # empty set => include everything; non-empty => remove
     ).generate(text)
 
     plt.figure(figsize=(width/100, height/100))
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")
     if title:
-        plt.title(title, fontsize=14)
+        plt.title(title, fontsize=12)
     plt.show()
